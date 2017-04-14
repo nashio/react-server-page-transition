@@ -1,0 +1,36 @@
+{
+  "name": "react-server-demo",
+  "version": "1.0.0",
+  "description": "demo react-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-server start",
+    "compile": "NODE_ENV=production react-server compile",
+    "compile:dev": "react-server compile",
+    "start_prod": "react-server start --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mocheng/react-server-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mocheng/react-server-demo/issues"
+  },
+  "homepage": "https://github.com/mocheng/react-server-demo#readme",
+  "dependencies": {
+    "babel-preset-react-server": "^0.3.3",
+    "babel-runtime": "^6.6.1",
+    "react": "~0.14.2",
+    "react-dom": "~0.14.2",
+    "react-server": "^0.6.1",
+    "react-server-cli": "^0.6.1",
+    "react-server-module-tagger": "^0.4.10",
+    "react-server-redux": "^0.6.1",
+    "superagent": "1.8.4"
+  },
+  "devDependencies": {
+    "file-loader": "^0.11.1"
+  }
+}

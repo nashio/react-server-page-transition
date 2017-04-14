@@ -1,0 +1,20 @@
+{
+	"host": "localhost",
+	"port": 3000,
+	"jsPort": 3001,
+	"hot": true,
+	"longTermCaching": false,
+  "logLevel": "notice",
+  "timingLogLevel": "none",
+  "gaugeLogLevel": "no",
+	"routesFile": "routes.json",
+	"env": {
+		"development": {
+			"hot": true,
+			"longTermCaching": false
+		},
+		"production": {
+			"port": "80"
+		}
+	}
+}
