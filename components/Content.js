@@ -35,10 +35,12 @@ class Content extends React.Component {
   }
 
   componentDidMount() {
+    // happens the first time
     this.setState({
       show: true
     });
 
+    // happens on every completed navigation
     getCurrentRequestContext().navigator.on('loadComplete', () => {
       // able to setState because reuseDom: true
       this.setState({
